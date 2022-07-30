@@ -1,21 +1,5 @@
 # {{cookiecutter.project_name}}
 
-
-## Background
-
-This project was generated from a custom
-[FAastAPI](https://fastapi.tiangolo.com/)/[cookiecutter](https://www.cookiecutter.io/) template
-at https://git.seisachtheia.com/kedvenczrt/02-full-stack-fastapi-postgresql/
-which is tracked in GitHub at https://github.com/GBognar/full-stack-fastapi-postgresql
-
-The custom template is based on the FastAPI template/cookiecutter template 
-[`whythawk-full-stack-fastapi-postgresql`](https://github.com/whythawk/full-stack-fastapi-postgresql),
-which is a modernized version of the *original canonical* FastAPI template
-[`tiangolo-full-stack-fastapi-postgresql`](https://github.com/tiangolo/full-stack-fastapi-postgresql).
-
-The original (generated) readme is at [`README.orig.md`](README.orig.md)
-
-
 ## Backend Requirements
 
 * [Docker](https://www.docker.com/).
