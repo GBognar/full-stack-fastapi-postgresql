@@ -26,6 +26,19 @@ The original (generated) readme is at [`README.orig.md`](README.orig.md)
 
 * Node.js (with `yarn`).
 
+## Starting the generated containers
+
+The front-end uses a Nuxt-based application (as a default, but not
+planned to use it) built using yarn. To build it, first run 
+`npm install` locally.
+
+```shell
+cd frontend
+npm install
+cd ..
+docker-compose up -d
+```
+
 ## Backend local development
 
 * Start the stack with Docker Compose:

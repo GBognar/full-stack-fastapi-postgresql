@@ -16,3 +16,16 @@ README of the *generated* project, but it can be previewed in the
 *   The copy of the original README is at [`README.orig.md`](./README.orig.md)
 *   The *original* `README` for the generator: https://github.com/whythawk/full-stack-fastapi-postgresql
 *   The README for the *tiangolo* generator is at: https://github.com/tiangolo/full-stack-fastapi-postgresql
+
+## Starting the generated containers
+
+The front-end uses a Nuxt-based application (as a default, but not
+planned to use it) built using yarn. To build it, first run 
+`npm install` locally.
+
+```shell
+cd frontend
+npm install
+cd ..
+docker-compose up -d
+```
