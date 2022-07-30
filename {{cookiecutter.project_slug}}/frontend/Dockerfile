@@ -25,4 +25,4 @@ COPY --from=build /app/content ./content
 COPY --from=build /app/static ./static
 COPY --from=build /app/nuxt.config* /app/api.ts /app/utils.ts ./
 ENTRYPOINT ["yarn"]
-CMD ["nuxt-start"]
+CMD ["run start"]
